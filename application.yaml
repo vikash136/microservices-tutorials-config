@@ -7,13 +7,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-#for actuator
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-#      base-path: "/hotelservice"
-  endpoint:
-    health:
-      show-details: "ALWAYS"
+
